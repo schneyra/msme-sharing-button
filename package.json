@@ -1,0 +1,23 @@
+{
+    "name": "msme-sharing-button",
+    "description": "A styleable sharing button that uses the Web Share API",
+    "version": "1.0.0",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/schneyra/msme-sharing-button.git"
+    },
+    "keywords": [],
+    "author": {
+        "name": "Martin Schneider",
+        "email": "hallo@martinschneider.me",
+        "url": "https://martinschneider.me/"
+    },
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/schneyra/msme-sharing-button/issues"
+    },
+    "homepage": "https://github.com/schneyra/msme-sharing-button"
+  }
