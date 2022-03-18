@@ -34,7 +34,6 @@ class sharingButton extends HTMLElement {
 
     this._contents = new DocumentFragment();
     this._contents.appendChild(template.content.cloneNode(true));
-    this.appendChild(this._contents);
 
     // and here's the sharing-action
     let button = this._contents.querySelector("button");
@@ -52,6 +51,8 @@ class sharingButton extends HTMLElement {
           console.log("msme-sharing-button: error while sharing", error)
         );
     });
+
+    this.appendChild(this._contents);
   }
 }
 
